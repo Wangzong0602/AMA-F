@@ -1,0 +1,39 @@
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs and generated outputs
+log/
+logs/
+*.log
+runs/
+outputs/
+
+# Model checkpoints and large generated files
+save_model/
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Data files are usually too large for Git
+data/
+dataset/
+datasets/
